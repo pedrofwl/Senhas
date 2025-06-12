@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Nome: Pedro Henrique Schiebel - Nº X - Turma 3ºB -->
+<div class="container">
+    <h1>🔐 Gerador de Senhas</h1>
+
+    <div class="parametro-senha">
+        <h4>Características da senha</h4>
+
+        <div class="parametro-senha-checkbox">
+            <input type="checkbox" id="maiusculas" checked>
+            <label for="maiusculas">Letras maiúsculas</label>
+        </div>
+
+        <div class="parametro-senha-checkbox">
+            <input type="checkbox" id="minusculas" checked>
+            <label for="minusculas">Letras minúsculas</label>
+        </div>
+
+        <div class="parametro-senha-checkbox">
+            <input type="checkbox" id="numeros" checked>
+            <label for="numeros">Números</label>
+        </div>
+
+        <div class="parametro-senha-checkbox">
+            <input type="checkbox" id="simbolos">
+            <label for="simbolos">Símbolos</label>
+        </div>
+
+        <input type="text" id="campoSenha" placeholder="Senha gerada aqui" class="campo-senha" readonly>
+        <button onclick="gerarSenha()">🔄 Gerar senha</button>
+    </div>
+
+    <footer>
+        Página criada por Pedro Henrique Schiebel 🌟
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

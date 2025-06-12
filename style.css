@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #4dd0e1;
+}
+
+.parametro-senha {
+    margin-top: 20px;
+}
+
+.parametro-senha-checkbox {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.checkbox, label {
+    cursor: pointer;
+}
+
+.campo-senha {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4dd0e1;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00acc1;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
